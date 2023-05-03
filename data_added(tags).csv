@@ -1,0 +1,65 @@
+Question ID,Question,A,B,C,D,Correct Answer,Difficulty Level,tags,topic,subtopic
+Q1,What is the purpose of the init() method in a Python class?, It is used to define the class methods, It is used to create a new object of the class, It is used to initialize the attributes of the object when it is created, It is used to delete an object of the class,C,Beginner,Functions,func_4,func_4_4
+Q2,"What will be the output of the following Python expression if x=56.236?   print(""%.2f""%x)",56.236,56.23,56,56.24,D,Beginner,Python formatting and printing,vardt_2,vardt_2_2
+Q3,Which module in the python standard library parses options received from the command line?, getarg, getopt, main, os,B,Advanced,Libraries,mods_8,mods_8_1
+Q4,"What will be the output of the following Python code snippet? z=set('abc$de')
+'a' in z", Error, True, False, No output,B,Advanced,"Tuples, Lists, Dictionaries, Sets",ds_5,ds_5_4
+Q5,Which of the following is a feature of Python DocString?, In Python all functions should have a docstring, Docstrings can be accessed by the __doc__ attribute on objects," It provides a convenient way of associating documentation with Python modules, functions, classes, and methods", All of the mentioned,D,Advanced,String Tools,vardt_2,vardt_2_2
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Q9,What is the length of sys.argv?, number of arguments, number of arguments + 1, number of arguments � 1, none of the mentioned,B,Beginner,Arguments,funcs_4,funcs_4_2
+Q10,What is setattr() used for?, To access the attribute of the object, To set an attribute, To check if an attribute exists or not, To delete an attribute,B,Advanced,Classes and Objects,oop_7,oop_7_1
+Q11,When will the else part of try-except-else be executed?, always, when an exception occurs, when no exception occurs, when an exception occurs in to except block,C,Advanced,Exception Handling,errhand_10,errhand_10_1
+Q12,Which of the following statements are true?," When you open a file for reading, if the file does not exist, an error occurs"," When you open a file for writing, if the file does not exist, a new file is created"," When you open a file for writing, if the file exists, the existing file is overwritten with the new file", All of the mentioned,D,Advanced,Files & Modules,io_6,io_6_3
+Q13,Program code making use of a given module is called a ______ of the module., Client, Docstring, Interface, Modularity,A,Advanced,Modules and Packages,mods_8,mods_8_2
+Q14,Which one of the following is not attributes of file?, closed, softspace, rename, mode,C,Intermediate,Files & Modules,io_6,io_6_1
+Q15,Which of the following isn't true about main modules?," When a python file is directly executed, it is considered main module of a program", Main modules may import any number of modules, Special name given to main modules is: __main__, Other main modules can import main modules,D,Intermediate,Files & Modules,,
+Q16,Which is/are the basic I/O connections in file?, Standard Input, Standard Output, Standard Errors, All of the mentioned,D,Intermediate,Files & Modules,,
+Q17,What is the output of print(2 + 3 * 4)?,20,14,12,18,B,Beginner,Data Types,vars_2,vars_2_5
+Q18,Which of the following is true for variable names in Python?,underscore and ampersand are the only two special characters allowed, unlimited length, all private members must have leading and trailing underscores, none of the mentioned,B,Beginner,Variables,vars_2,vars_2_1
+Q19,Which of the following is not a core data type in Python programming?, Tuples, Lists, Class, Dictionary,B,Beginner,Data Types,intro_1,intro_1_5
+Q20,Which is the correct operator for power(xy)?, X^y, X**y, X^^y, None of the mentioned,B,Beginner,Operators,ops_3,ops_3_1
+Q21,Which of the following best describes inheritance?, Ability of a class to derive members of another class as a part of its own definition, Means of bundling instance variables and methods in order to restrict access to certain class members, Focuses on variables and passing of variables to functions, Allows for implementation of elegant software that is well designed and easily modified,A,Beginner,OOPs Concept,oop_9,oop_9_3
+Q22,What is the biggest reason for the use of polymorphism?, It allows the programmer to think at a more abstract level, There is less program code to write, The program will have a more elegant design and will be easier to maintain and update, Program code takes up less space,C,Beginner,OOPs Concept,oop_9,oop_9_4
+Q23,Which of the following will run without errors?, round(45.8)," round(6352.898,2,5)", round(),"round(7463.123,2,1)",A,Beginner,Data Types,intro_1,intro_1_5
+Q24,What error occurs when you execute the following Python code snippet? apple = mango, SyntaxError, NameError, ValueError, TypeError,D,Beginner,Data Types,vars_2,vars_2_1
+Q25,What does single-level inheritance mean?, A subclass derives from a class which in turn derives from another class, A single superclass inherits from multiple subclasses, A single subclass derives from a single superclass, Multiple base classes inherit a single derived class,C,Beginner,OOPs Concept,oop_9,oop_9_1
+Q26,What is the correct syntax for a for loop that iterates over a list?, for i in list:, for i in range(len(list)):, for i in list[1:]:," for i in range(0, len(list)):",A,Intermediate,Control Statements,ctrl_4,ctrl_4_2
+Q27,What is the difference between a list and a tuple?," A list is immutable, while a tuple is mutable"," A tuple is indexed, while a list is not"," A list is ordered, while a tuple is not"," A list is mutable, while a tuple is immutable",D,Beginner,Data Structures,data_6,data_6_2
+Q28,Which of the following is used to open a file for writing?, r, w, a, x,B,Intermediate,File Handling,io_7,io_7_3
+Q29,Which type of Programming does Python support?, object-oriented programming, structured programming, functional programming, all of the mentioned,D,Beginner,Basic,intro_1,intro_1_5
+Q30,Which of these is the definition for packages in Python?, A set of main modules, A folder of python modules, A number of files containing Python definitions and statements, A set of programs making use of Python modules,B,Intermediate,Packages,mods_10,mods_10_3
+Q31,"What will be the output of the following Python function? len([""hello"",2, 4, 6])", Error,6,4,3,C,Beginner,Functions,funcs_5,funcs_5_3
+Q32,"What will be the output of the following Python code?  print(""abc. DEF"".capitalize())", Abc. def, abc. def, Abc. Def, ABC. DEF,A,Beginner,Functions,funcs_5,funcs_5_2
+Q33,Which of the following is a Python tuple?," {1, 2, 3}", {}," [1, 2, 3]"," (1, 2, 3)",D,Beginner,Data Structures,data_6,data_6_2
+Q34,What will be the output of the following Python expression? round(4.576),4,4.6,5,4.5,C,Beginner,Functions,funcs_5,funcs_5_3
+Q35,"What is output of print(math.pow(3, 2))?",9, None,9, None of the mentioned,C,Beginner,Functions,funcs_5,funcs_5_2
+Q36,"Suppose d = {�john�:40, �peter�:45}. To obtain the number of entries in dictionary which command do we use?", d.size(), len(, size(, d.len(),B,Beginner,Data Structures,data_6,data_6_1
+Q37,Which of the following is used to define a block of code in Python language?, Indentation, Key, Brackets, All of the mentioned,A,Intermediate,Indentation,,
+Q38,Which of the following is the truncation division operator in Python?, |, //, /, %,B,Intermediate,Operators,ops_3,ops_3_1
+Q39,"What will be the output of the following Python statement? >>>""a""+""bc""", a, bc, bca, abc,D,Intermediate,Operators,ops_3,ops_3_1
+Q40,What arithmetic operators cannot be used with strings?, +, *, �, All of the mentioned,C,Intermediate,String,ops_3,ops_3_1
+Q41,What is the output when we execute list(�hello�)?," [�h�, �e�, �l�, �l�, �o�]", [�hello�], [�llo�], [�olleh�],A,Beginner,Data Structures,data_6,data_6_1
+Q42,"Suppose list1 is [2445,133,12454,123], what is max(list1)?",2445,133,12454,123,C,Beginner,Data Structures,data_6,data_6_1
+Q43,Which of the following statements create a dictionary?, d = {}," d = {�john�:40, �peter�:45}"," d = {40:�john�, 45:�peter�}", All of the mentioned,D,Beginner,Data Structures,data_6,data_6_3
+Q44,Where is function defined?, Module, Class, Another function, All of the mentioned,D,Beginner,Functions,funcs_5,funcs_5_1
+Q45,"Python supports the creation of anonymous functions at runtime, using a construct called __________", lambda, pi, anonymous, none of the mentioned,A,Beginner,Functions,func_12,func_12_1
+Q46,What function do you use to read a string?, input(�Enter a string�), eval(input(�Enter a string�)), enter(�Enter a string�), eval(enter(�Enter a string�)),A,Intermediate,String,vars_2,vars_2_2
+Q47,Which of the following isn�t true about dictionary keys?, More than one key isn�t allowed, Keys must be immutable, Keys must be integers," When duplicate keys encountered, the last assignment wins",C,Beginner,Data Structures,data_6,data_6_3
+Q48,"What type of data is: a=[(1,1),(2,4),(3,9)]?", Array of tuples, List of tuples, Tuples of lists, Invalid type,B,Beginner,Data Structures,data_6,data_6_2
+Q49,"What is the output of this expression, 3*1**3?",27,9,3,1,C,Intermediate,Operators,ops_3,ops_3_1
+Q50,What is Python?, A programming language, A game engine, An operating system, A browser extension,A,Beginner,programming language,intro_1,intro_1_1
+Q51,Which of the following is a correct syntax for assigning a value to a variable in Python?, variable = value, value = variable, variable == value, value == variable,A,Beginner,variable assignment,vars_2,vars_2_1
+Q52,What is the output of the following code? x = 5 y = 2 print(x % y),2,3,2.5,0,D,Beginner,modulus operator,,
+Q53,Which of the following is NOT a Python data type?, integer, float, string, loop,D,Beginner,python data types,,
+Q54,What does the following code print? for i in range(5): print(i), 0 1 2 3 4, 1 2 3 4 5, 0 1 2 3 4 5,"None of the above
+",A,Beginner,for loop,ctrl_4,ctrl_4_2
+Q55,What is the correct way to declare a function in Python?, function my_function():, def my_function():, my_function():, func my_function():,B,Beginner,python functions,,
+Q56,Which of the following is a correct way to read a file in Python?, read(file.txt), open(file.txt), with open(file.txt) as f:, read(file.txt 'r'),C,Beginner,python file handling,io_7,io_7_1
+Q57,Which of the following is NOT a control flow statement in Python?, if, while, else, boolean,D,Beginner,control flow statements,ctrl_4,ctrl_4_3
+Q58,"What is the output of the following code? a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)","[1,2,3]","[1,2,3,4]","[1,2,4]", None of the above,B,Beginner, Python lists,data_6,data_6_1
+Q59,Which of the following is a correct way to check if a value exists in a list in Python?, if value in list:, if value == list:, if value not in list:, if value != list:,A,Beginner,python lists,data_6,data_6_1
